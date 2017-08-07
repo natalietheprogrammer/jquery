@@ -23,6 +23,8 @@ function adjustCSS( elem, prop, valueParts, tween ) {
 		initialInUnit = ( jQuery.cssNumber[ prop ] || unit !== "px" && +initial ) &&
 			rcssNum.exec( jQuery.css( elem, prop ) );
 
+	// hee hee hee Natalie was here
+
 	if ( initialInUnit && initialInUnit[ 3 ] !== unit ) {
 
 		// Trust units reported by jQuery.css
